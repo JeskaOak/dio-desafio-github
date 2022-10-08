@@ -1,0 +1,23 @@
+Anotações breves e diversas do Git/Github
+Obs: Para assuntos mais extensos do Git/Github serão criados blocos de notas mais detalhados
+
+SHA1
+É um algoritmo de encriptação. Ele pega seu arquivo seja foto, imagem, texto e etc, e o embaralha de uma forma muito específica, gerando um conjunto único de 40 caracteres.
+Tem identificação única. A qualquer alteração feita em um arquivo, um novo conjunto de caracteres é gerado, no entanto, se o arquivo retorna ao seu estado original o mesmo conjunto de caractere retorna, nos mostrando que não houve alteração no arquivo. Ex: Você tem um texto e esse texto tem um código XPTO; se excluir uma vírgula e salvar essa alteração o código será diferente de XPTO, porém se recolocar a vírgula no lugar original e salvar a alteração o código será XPTO novamente.
+SHA1 serve para identificar os arquivos de forma segura e rápida.
+
+
+Chave SSH
+Estabelece uma conexão segura e encriptada entre duas máquinas.
+
+
+Ambiente Local e Remoto
+Temos 2 ambientes: Ambiente de desenvolvimento (representa tudo que está na nossa máquina) e um servidor remoto.
+Git é um sistema distribuído ele vai ter a versão dele no servidor (que seria o github) e a versão que está na sua máquina. As alterações feita na sua máquina não repercutem imediatamente no repositório remoto. Porém é possíel fazer isso com um conjunto de códigos.
+Repositório local: Possui apenas os commits, caso contrário não é possível enviar o seu repositório para o servidor.
+
+
+Fonte: DIO
+
+
+

@@ -1,0 +1,27 @@
+Blobs, Trees, Commits
+
+
+Blobs
+Os arquivos ficam guardados dentro do objeto blob. 
+O blob contém metadados dentro dele: tipo do objeto, tamanho do arquivo, \0 e conteúdo do arquivo (essa é a estrutura blob).
+Git armazena metadados nos objetos.
+
+
+Trees
+As trees guardam blobs e podem guardar outras trees. É uma crescente, o blob é um bloco básico de composição; as trees armazenam e apontam para tipos de blobs diferentes.
+A árvore também contém metadados e ela guarda o nome do arquivo (diferente do blob).
+A árvore é responsável por montar toda estrutura de onde estão localizados os arquivos
+A árvore pode apontar para arquivos(blobs) e/ou outras árvores
+As árvores também tem um SHA1 de metadados.
+
+Commit
+O objeto mais importante. Junta tudo e dá sentido às alterações feitas
+O commit aponta para uma árvore, parente (commit anterior), autor e aponta para uma mensagem
+O commit também tem SHA1 e é único para cada autor
+Guarda o estado do seu repositório naquele momento. A ideia principal é que a cada ponto em que o seu código esteja funcionando com uma nova pequena funcionalidade, exista um commit. Dessa forma, ao longo do tempo, você vai conseguir ver uma “história” do seu repositório e o que aconteceu para que chegasse do jeito que está hoje. 
+Um commit, além de mostrar um snapshot do seu repositório, tem outros metadados, como autoria, uma mensagem, timestamp, entre outros. 
+
+
+
+Fonte: DIO
+

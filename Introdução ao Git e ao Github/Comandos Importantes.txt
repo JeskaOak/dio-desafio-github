@@ -1,0 +1,18 @@
+Alguns Comandos do Git para Windows e Unix
+
+Windows		Unix
+cd		cd		muda de pasta
+dir		ls		lista as pastas
+mkdir		mkdir		cria pastas/arquivos
+del/rmdir	rm -rf		deleta pastas/arquivos
+
+
+
+Primeiros Comandos com o Git
+
+git init	inicia o Git
+git add		inicia o versionamento
+git commit	cria um commit
+
+
+Fonte: DIO

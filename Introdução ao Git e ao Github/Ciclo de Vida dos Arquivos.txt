@@ -1,0 +1,19 @@
+Ciclo de Vida dos Arquivos
+
+Git Init: Cria um repositório no git dentro daquele diretório/pasta
+
+Tracked/Untracked: Git sabe que existe; untracked não sabe
+
+Staged: Possui arquivos que estão se preparando para fazer parte de um outro tipo de agrupamento.
+Ex: Um arquivo acaba de ser criado, então ele está untracked. Quando você usa o git add, o arquivo é adicionado ao staged area.
+
+Unmodified: Um arquivo que não sofreu alterações. Se esse arquivo é removido, ele volta para untracked.
+
+Modified: Arquivo que sofreu alguma alteração. Se for dado um git add nesse arquivo, ele vai para stage area.
+Com o SHA1, o git consegue saber se houve ou não alterações no arquivo.
+
+Staged: Quando os arquivos vão para este "palco" eles estão se preparando para fazer parte de um commit.
+
+Commit: Manda todos os arquivos dentro do commit para Unmodified, para iniciar o ciclo novamente.
+
+
